@@ -33,6 +33,10 @@ App({
       }
     })
   },
+  onHide: function() {
+    console.log("This guy shut down app..")
+    this.globalData.userInfo = null
+  },
   globalData: {
     userInfo: null
   }

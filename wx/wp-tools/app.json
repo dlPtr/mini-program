@@ -1,12 +1,13 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/weather-condition/main",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "WP-tools",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
