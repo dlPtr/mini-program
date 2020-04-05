@@ -15,6 +15,9 @@ Page({
       url: '../logs/logs'
     })
   },
+  logOne: function() {
+    console.log("This guy is touching me!")
+  },
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({
